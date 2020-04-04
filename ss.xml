@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ss>
+  <ProgName name ="FACEIT">
+    <Version>1.24.1</Version>
+    <Url>http://127.0.0.1:8000/Faceit.exe</Url>
+  </ProgName>
+  <ProgName name="Discord">
+    <Version>0.0.307</Version>
+    <Url>http://127.0.0.1:8000/Discord.exe</Url>
+  </ProgName>
+  <ProgName name="�Torrent">
+    <Version>3.5.5.45608</Version>
+    <Url>http://127.0.0.1:8000/�Torrent.exe</Url>
+  </ProgName>
+  <ProgName name="vs_minshellmsires">
+    <Version>16.0.28330</Version>
+	  <Url>http://127.0.0.1:8000/vs_minshellmsires.exe</Url>
+	</ProgName>
+  <ProgName name="yes">
+    <Version>1.21.1</Version>
+    <Url>http://ss.xom/ss.exe</Url>
+  </ProgName>
+</ss>
