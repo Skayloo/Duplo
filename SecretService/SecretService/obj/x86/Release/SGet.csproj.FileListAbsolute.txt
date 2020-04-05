@@ -1,0 +1,72 @@
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\bin\Release\SGet.exe.config
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\bin\Release\SGet.exe
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\bin\Release\SGet.pdb
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\bin\Release\Microsoft.Windows.Shell.dll
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\bin\Release\RibbonControlsLibrary.dll
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\bin\Release\WPFToolkit.Extended.dll
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet.csprojAssemblyReference.cache
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\App.baml
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\BatchDownload.baml
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\Preferences.baml
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\NewDownload.baml
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\App.g.cs
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\BatchDownload.g.cs
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\Preferences.g.cs
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\MainWindow.g.cs
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\NewDownload.g.cs
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet_Content.g.cs
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet_MarkupCompile.cache
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet_MarkupCompile.lref
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\MainWindow.baml
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\Themes\Generic.baml
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet.g.resources
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet.Properties.Resources.resources
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet.csproj.GenerateResource.cache
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet.csproj.CopyComplete
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet.exe
+C:\Users\skayl\Рабочий стол\SGet-master\SGet\obj\x86\Release\SGet.pdb
+C:\Users\Skayloo\Desktop\SGet-master\SGet\bin\Release\SGet.exe.config
+C:\Users\Skayloo\Desktop\SGet-master\SGet\bin\Release\SGet.exe
+C:\Users\Skayloo\Desktop\SGet-master\SGet\bin\Release\SGet.pdb
+C:\Users\Skayloo\Desktop\SGet-master\SGet\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Skayloo\Desktop\SGet-master\SGet\bin\Release\Microsoft.Deployment.WindowsInstaller.dll
+C:\Users\Skayloo\Desktop\SGet-master\SGet\bin\Release\Microsoft.Windows.Shell.dll
+C:\Users\Skayloo\Desktop\SGet-master\SGet\bin\Release\RibbonControlsLibrary.dll
+C:\Users\Skayloo\Desktop\SGet-master\SGet\bin\Release\WPFToolkit.Extended.dll
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet.csprojAssemblyReference.cache
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Hash Windows\Hash.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Other\App.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Dowload Windows\BatchDownload.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\FastClick Windows\ConfigList.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Install Windows\Installation.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\FastClick Windows\PathVariable.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Settings Windows\Preferences.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Dowload Windows\NewDownload.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Install Windows\Unisntall.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Update Windows\Update.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Hash Windows\Hash.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Other\App.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Dowload Windows\BatchDownload.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\FastClick Windows\ConfigList.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Install Windows\Installation.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\FastClick Windows\PathVariable.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Settings Windows\Preferences.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Other\MainWindow.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Dowload Windows\NewDownload.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Install Windows\Unisntall.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Update Windows\Update.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet_Content.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet_MarkupCompile.cache
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet_MarkupCompile.lref
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Other\MainWindow.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\Themes\Generic.baml
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet.g.resources
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet.Properties.Resources.resources
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet.csproj.GenerateResource.cache
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet.csproj.CoreCompileInputs.cache
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet.csproj.CopyComplete
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet.exe
+C:\Users\Skayloo\Desktop\SGet-master\SGet\obj\x86\Release\SGet.pdb
