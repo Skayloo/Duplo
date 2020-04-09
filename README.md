@@ -4,7 +4,7 @@
 
 ## Сборка
 
-Для сборки необходим дополнительный софт часть можно установить при помощи Nuget
+Для сборки необходим дополнительный софт. Часть можно установить при помощи Nuget
 
 1. Install-Package Hardcodet.Wpf.TaskbarNotification 
 2. Install-Package RibbonControlsLibrary 
