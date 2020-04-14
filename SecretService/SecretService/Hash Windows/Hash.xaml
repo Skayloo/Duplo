@@ -17,7 +17,7 @@
         </Style>
     </Window.Resources>
 
-    <Grid Style="{StaticResource BackgroundStyle}" Width="700" Height="500">
+    <Grid Style="{DynamicResource BackgroundStyle}" Width="auto" Height="auto" MinWidth="700" MinHeight="500">
         <Label Content="Добавить файлы" Height="28" Margin="10,10,0,0" Name="lbServerAddr" VerticalAlignment="Top" HorizontalAlignment="Left" Width="104" RenderTransformOrigin="0.516,1.429" />
         <Button Content="Обзор" Height="23" Margin="569,11,0,0" Name="btnAddHashFile" VerticalAlignment="Top" HorizontalAlignment="Left" Width="116" Click="btnAddHashFile_Click" RenderTransformOrigin="1.614,0.605"  />
         <Button Content="Проверить выделенное" Height="23" Margin="524,467,0,0" Name="btnCheckSelectedFiles" VerticalAlignment="Top" HorizontalAlignment="Left" Width="166" Click="btnCheckSelectedFiles_Click" />

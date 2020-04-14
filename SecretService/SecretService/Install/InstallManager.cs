@@ -31,8 +31,8 @@ namespace SGet.Install
 
         public string Parameters(string name, string path)
         {
-            string appDataPath = Environment.UserName;
-            string folderPath = "C:\\Users\\" + appDataPath + "\\Desktop\\SecretService\\SecretService\\base\\nfdc.exe";
+            string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string folderPath = @appDataPath + "\\SecretService\\SecretService\\base\\nfdc.exe";
             if (!File.Exists(folderPath))
             {
                 MessageBoxResult result = Xceed.Wpf.Toolkit.MessageBox.Show("Невозможно найти файл " + folderPath, "SecretService");

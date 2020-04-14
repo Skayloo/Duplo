@@ -151,4 +151,28 @@
   <data name="download_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\download_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="config" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\config.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fastInstall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fastInstall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hashchecker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hashchecker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="install" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\install.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="installall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\installall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msconfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msconfig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="okrug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\okrug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uninstall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uninstall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

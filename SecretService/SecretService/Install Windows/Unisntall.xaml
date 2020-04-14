@@ -17,16 +17,16 @@
         </Style>
     </Window.Resources>
 
-    <Grid Style="{StaticResource BackgroundStyle}" Width="700" Height="500">
+    <Grid Style="{DynamicResource BackgroundStyle}" Width="900" Height="500">
         <Label Content="Выберите программы для удаления" Height="28" Margin="10,10,0,0" Name="lbUninstallFolder" VerticalAlignment="Top" HorizontalAlignment="Left" Width="254" RenderTransformOrigin="0.516,1.429" FontSize="14" />
-        <Button Content="Удалить выбранные программы" Height="23" Margin="493,470,0,0" Name="btnUninstall" VerticalAlignment="Top" HorizontalAlignment="Left" Width="197" Click="btnUninstall_Click"  />
+        <Button Content="Удалить выбранные программы" Height="23" Margin="693,470,0,0" Name="btnUninstall" VerticalAlignment="Top" HorizontalAlignment="Left" Width="197" Click="btnUninstall_Click"  />
 
 
         <DockPanel DockPanel.Dock="Top" Name="downloadsPanel" Background="#FFF9F9F9" Margin="1,43,-2,35" RenderTransformOrigin="0.501,0.621">
-            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Name="dgScrollViewer" Width="700" RenderTransformOrigin="0.506,0.531" Height="422" VerticalAlignment="Top">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Name="dgScrollViewer" Width="899" RenderTransformOrigin="0.506,0.531" Height="422" VerticalAlignment="Top">
                 <DataGrid AutoGenerateColumns="False" Name="UninstallGrid" VerticalContentAlignment="Center" DockPanel.Dock="Top" 
                             BorderThickness="0" IsReadOnly="True" GridLinesVisibility="All" MinRowHeight="22" RowBackground="#FFF9F9F9"
-                            Background="#FFF9F9F9" HorizontalGridLinesBrush="#FFCBCBCB" VerticalGridLinesBrush="#FFCBCBCB" CanUserResizeRows="False" Width="695" RenderTransformOrigin="0.503,0.431" Height="422">
+                            Background="#FFF9F9F9" HorizontalGridLinesBrush="#FFCBCBCB" VerticalGridLinesBrush="#FFCBCBCB" CanUserResizeRows="False" Width="893" RenderTransformOrigin="0.503,0.431" Height="422">
                     <DataGrid.CellStyle>
                         <Style TargetType="DataGridCell">
                             <Setter Property="BorderThickness" Value="0"/>
@@ -35,6 +35,7 @@
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Название программы" MinWidth="150" Width="Auto" Binding="{Binding Name}" />
                         <DataGridTextColumn Header="Версия" MinWidth="150" Width="Auto" Binding="{Binding Version}" />
+                        <DataGridTextColumn Header="Путь установки" MinWidth="150" Width="Auto" Binding="{Binding Path}" />
                     </DataGrid.Columns>
                 </DataGrid>
             </ScrollViewer>

@@ -16,7 +16,6 @@ using System.Windows.Controls;
 using System.Windows.Forms;
 using System.Windows.Input;
 using System.Xml.Linq;
-using System.Configuration;
 using SGet.Other;
 
 namespace SGet
@@ -1013,7 +1012,7 @@ namespace SGet
 
         private void btServicesAndSetup_Click(object sender, RoutedEventArgs e)
         {
-            using (var disableRedirects = new DisableFsRedirection())
+            using (var disableRedirects = new Other.DisableFsRedirection())
             {
                 ProcessStartInfo pf = new ProcessStartInfo(Path.Combine(Environment.SystemDirectory, "msconfig.exe"));
                 pf.Verb = "runas";

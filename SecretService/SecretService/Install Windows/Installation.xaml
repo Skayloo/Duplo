@@ -17,7 +17,7 @@
         </Style>
     </Window.Resources>
 
-    <Grid Style="{StaticResource BackgroundStyle}" Width="700" Height="500">
+    <Grid Style="{DynamicResource BackgroundStyle}" Width="700" Height="500">
         <Label Content="Путь программы:" Height="28" Margin="10,10,0,0" Name="lbInstallFolder" VerticalAlignment="Top" HorizontalAlignment="Left" Width="104" RenderTransformOrigin="0.516,1.429" />
         <Label Content="Параметры установки:" Height="28" Margin="10,87,0,0" Name="lbInstallParams" VerticalAlignment="Top" HorizontalAlignment="Left" Width="135" />
         <Label Content="Путь установки:" Height="28" Margin="10,48,0,0" Name="lbInstallOutcome" VerticalAlignment="Top" HorizontalAlignment="Left" Width="135" RenderTransformOrigin="0.57,2.775" />
@@ -28,7 +28,7 @@
         <Button Content="Обзор" Height="23" Margin="587,48,0,0" Name="btnBrowse1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="103" Click="btnBrowse_Click1"  />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="119,10,0,0" Name="tbInstallFolder" VerticalAlignment="Top" Width="463" Text="" IsReadOnly="True" RenderTransformOrigin="0.61,0.648" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="150,87,0,0" Name="tbInstallParams" VerticalAlignment="Top" Width="415" Text="" IsReadOnly="False" RenderTransformOrigin="0.61,0.648" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="119,48,0,0" Name="tbInstallOutcome" VerticalAlignment="Top" Width="463" Text="" IsReadOnly="True" RenderTransformOrigin="0.61,0.648" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="119,48,0,0" Name="tbInstallOutcome" VerticalAlignment="Top" Width="463" Text="" IsReadOnly="False" RenderTransformOrigin="0.61,0.648" />
 
 
         <DockPanel DockPanel.Dock="Top" Name="downloadsPanel" Background="#FFF9F9F9" Margin="1,130,-2,74" RenderTransformOrigin="0.501,0.621">

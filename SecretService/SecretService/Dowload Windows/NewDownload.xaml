@@ -23,7 +23,7 @@
         </Grid.ColumnDefinitions>
         <Label Content="Сохранить:" Height="28" HorizontalAlignment="Left" Margin="12,46,0,0" Name="lblSaveTo" VerticalAlignment="Top" />
         <Label Content="Сохранить как:" Height="28" HorizontalAlignment="Left" Margin="12,80,0,0" Name="lblSaveAs" VerticalAlignment="Top" Grid.ColumnSpan="2" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="9.52,51,0,0" Name="tbDownloadFolder" VerticalAlignment="Top" Width="284" Text="" IsReadOnly="True" TextChanged="tbDownloadFolder_TextChanged" RenderTransformOrigin="0.61,0.648" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="9.52,51,0,0" Name="tbDownloadFolder" VerticalAlignment="Top" Width="284" Text="" IsReadOnly="False" TextChanged="tbDownloadFolder_TextChanged" RenderTransformOrigin="0.61,0.648" Grid.Column="1" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="9.52,80,0,0" Name="tbSaveAs" VerticalAlignment="Top" Width="200" Grid.Column="1" />
         <Button Content="Обзор" Height="23" HorizontalAlignment="Left" Margin="307.52,51,0,0" Name="btnBrowse" VerticalAlignment="Top" Width="75" Click="btnBrowse_Click" Grid.Column="1" />
         <Button Content="Сохранить" Height="23" HorizontalAlignment="Left" Margin="222.52,175,0,0" Name="btnDownload" VerticalAlignment="Top" Width="75" IsDefault="True" Click="btnDownload_Click" Grid.Column="1" />

@@ -25,36 +25,66 @@ namespace SGet
         }
         public class ProgsToDeleteClass
         {
-            public ProgsToDeleteClass(string name,string version)
+            public ProgsToDeleteClass(string name,string version, string path)
             {
                 this.Name = name;
                 this.Version = version;
+                this.Path = path;
             }
             public string Name { get; set; }
             public string Version { get; set; }
+            public string Path { get; set; }
         }
         private void ProgsToDelete()
         {
             string sb1 = null;
             string sb2 = null;
             string sb3 = null;
+            string sb4 = null;
 
-            RegistryKey key;
+            using (var user = RegistryKey.OpenBaseKey(RegistryHive.CurrentUser,RegistryView.Registry64))
+            using (var key = user.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"))
+                foreach (String keyName in key.GetSubKeyNames())
+                {
+                    RegistryKey subkey = key.OpenSubKey(keyName);
+                    sb1 = subkey.GetValue("DisplayName") as string;
+                    sb2 = subkey.GetValue("DisplayVersion") as string;
+                    sb3 = subkey.GetValue("UninstallString") as string;
+                    sb4 = subkey.GetValue("InstallLocation") as string;
+                    if (sb1 == null)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        del.Add(new ProgsToDeleteClass(sb1, sb2, sb4));
+                        if (sb3 == null || guid.ContainsKey(sb3))
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            guid.Add(sb3, sb1);
+                        }
+                    }
+                }
 
-            key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall");
-            foreach (String keyName in key.GetSubKeyNames())
+            using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine,RegistryView.Registry64))
+            using (var key = hklm.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"))
+                foreach (String keyName in key.GetSubKeyNames())
             {
                 RegistryKey subkey = key.OpenSubKey(keyName);
                 sb1 = subkey.GetValue("DisplayName") as string;
                 sb2 = subkey.GetValue("DisplayVersion") as string;
                 sb3 = subkey.GetValue("UninstallString") as string;
+                sb4 = subkey.GetValue("InstallLocation") as string;
                 if (sb1 == null)
                 {
                     continue;
                 }
                 else
                 {
-                    del.Add(new ProgsToDeleteClass(sb1, sb2));
+                    del.Add(new ProgsToDeleteClass(sb1, sb2, sb4));
                     if (sb3 == null || guid.ContainsKey(sb3))
                     {
                         continue;
@@ -65,45 +95,24 @@ namespace SGet
                     }
                 }
             }
-            key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall");
-            foreach (String keyName in key.GetSubKeyNames())
-            {
-                RegistryKey subkey = key.OpenSubKey(keyName);
-                sb1 = subkey.GetValue("DisplayName") as string;
-                sb2 = subkey.GetValue("DisplayVersion") as string;
-                sb3 = subkey.GetValue("UninstallString") as string;
-                if (sb1 == null)
-                {
-                    continue;
-                }
-                else
-                {
-                    del.Add(new ProgsToDeleteClass(sb1, sb2));
-                    if (sb3 == null || guid.ContainsKey(sb3))
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        guid.Add(sb3, sb1);
-                    }
-                }
-            }
-            key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall");
-            foreach (String keyName in key.GetSubKeyNames())
+
+            using (var hklm32 = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine,RegistryView.Registry32))
+            using (var key = hklm32.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"))
+                foreach (String keyName in key.GetSubKeyNames())
             {
 
                 RegistryKey subkey = key.OpenSubKey(keyName);
                 sb1 = subkey.GetValue("DisplayName") as string;
                 sb2 = subkey.GetValue("DisplayVersion") as string;
                 sb3 = subkey.GetValue("UninstallString") as string;
+                sb4 = subkey.GetValue("InstallLocation") as string;
                 if (sb1 == null)
                 {
                     continue;
                 }
                 else
                 {
-                    del.Add(new ProgsToDeleteClass(sb1, sb2));
+                    del.Add(new ProgsToDeleteClass(sb1, sb2, sb4));
                     if (sb3 == null || guid.ContainsKey(sb3))
                     {
                         continue;
@@ -133,7 +142,7 @@ namespace SGet
                                     string guid = getBetween(productcode, "{", "}");
                                     guid = "{" + guid + "}";
                                     Installer.SetInternalUI(InstallUIOptions.Full);
-                                    Installer.ConfigureProduct(guid, 0, InstallState.Absent, "REBOOT=\"ReallySuppress\"");
+                                    Installer.ConfigureProduct(guid, 0, InstallState.Absent, "IGNOREDEPENDENCIES=\"ALL\"");
                                 }
                                 catch (Exception ss)
                                 {
